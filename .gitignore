@@ -1,0 +1,15 @@
+# Local environment config (REAL values) - DO NOT COMMIT
+config/config.json
+
+# Optional local configs
+config/*.csv
+
+# Logs / output
+*.log
+*.tmp
+*.bak
+
+# PowerShell / tooling
+*.user
+*.suo
+.vscode/

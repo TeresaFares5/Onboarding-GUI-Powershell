@@ -1,0 +1,100 @@
+{
+  "App": {
+    "DemoModeDefault": true
+  },
+  "AD": {
+    "DefaultOU": "OU=Users,DC=example,DC=local"
+  },
+  "M365": {
+    "TenantId": "00000000-0000-0000-0000-000000000000",
+    "GraphScopes": [
+      "User.ReadWrite.All",
+      "Organization.Read.All"
+    ]
+  },
+  "Companies": {
+    "Example Corp": "example.com",
+    "Example NZ": "example.co.nz"
+  },
+  "Departments": [
+    "IT",
+    "Finance",
+    "Marketing",
+    "Sales"
+  ],
+  "Offices": {
+    "Sydney": {
+      "StreetAddress": "123 Example St",
+      "State": "NSW",
+      "PostalCode": "2000",
+      "Country": "AU",
+      "CountryDisplay": "Australia"
+    },
+    "Melbourne": {
+      "StreetAddress": "456 Demo Rd",
+      "State": "VIC",
+      "PostalCode": "3000",
+      "Country": "AU",
+      "CountryDisplay": "Australia"
+    }
+  },
+  "Groups": {
+    "Ignore": [
+      "Domain Users",
+      "Domain Admins",
+      "Administrators"
+    ],
+    "Global": [
+      "GRP-All-Staff",
+      "GRP-Security-Awareness"
+    ],
+    "Company": {
+      "Example Corp": [
+        "GRP-Company-ExampleCorp"
+      ],
+      "Example NZ": [
+        "GRP-Company-ExampleNZ"
+      ]
+    },
+    "Office": {
+      "Sydney": [
+        "GRP-Office-Sydney"
+      ],
+      "Melbourne": [
+        "GRP-Office-Melbourne"
+      ]
+    },
+    "Department": {
+      "IT": [
+        "GRP-Dept-IT"
+      ],
+      "Finance": [
+        "GRP-Dept-Finance"
+      ],
+      "Marketing": [
+        "GRP-Dept-Marketing"
+      ],
+      "Sales": [
+        "GRP-Dept-Sales"
+      ]
+    }
+  },
+  "Licenses": {
+    "Defaults": [
+      "Microsoft 365 E3",
+      "Defender for Office 365 P2"
+    ],
+    "CloudOnlyDefaults": [
+      "Microsoft 365 Business Basic"
+    ],
+    "CompanyDefaults": {
+      "Example Corp": [
+        "Microsoft 365 E3",
+        "Defender for Office 365 P2"
+      ],
+      "Example NZ": [
+        "Microsoft 365 Business Basic"
+      ]
+    }
+  }
+}
