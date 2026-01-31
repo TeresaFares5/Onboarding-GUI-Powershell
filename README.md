@@ -4,6 +4,8 @@ A **sanitised, onboarding tool** written in PowerShell using WPF.
 
 This project demonstrates how to build a real-world internal IT tool while following **security, configuration management, and automation best practices**.
 
+![Onboarding GUI Screenshot](assets/Screenshot.png)
+
 ---
 
 ##  What this project shows
